@@ -1,0 +1,25 @@
+{
+    "name": "hellomohsinhello/hello-world",
+    "description": "This just a fun hello world project.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hellomohsinhello\\HelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohsin Ali",
+            "email": "hellomohsinhello@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "2.x-dev"
+    }
+}
